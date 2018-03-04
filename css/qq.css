@@ -1,0 +1,687 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	width: 1000px;
+	margin: 0 auto;
+	font: 12px 宋体, 'Arial Narrow', HELVETICA;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #172c45;
+}
+.qq-Main{
+	width: 1000px;
+	height: 1000px;
+}
+.main-Title{
+	padding: 23px 0 16px;
+	width: 1000px;
+    height: 48px
+}
+.logo{
+	float: left;
+    display: inline;
+    margin-left: 160px
+}
+.search{
+	float: left;
+	height: 35px;
+	width: 290px;
+	margin: 5px 0 0 42px;
+    border: 1px solid #c1c4cb;
+    border-right: 0;
+    position: relative
+}
+.search:hover{
+    border: 1px solid #3297d8;
+    border-right: 0
+}
+.search-Button{
+	float: left;
+	border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 37px;
+    text-indent: -9999px;
+    width: 90px;
+    margin: 5px 0 0 0;
+	background: url(../img/search.png);
+	padding: 1px 6px
+}
+.search-Img{
+	width: 23px;
+    height: 23px;
+    float: right;
+    margin: 5px 6px 0 0;
+}
+.search-List{
+	float: left;
+	display: inline-block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    width: 48px;
+    color: #a8a8a8;
+    font-weight: 700;
+    background-image: url(../img/list.png);
+    background-position: -877px -199px
+}
+.search-Input{
+	display: inline-block;
+	float: left;
+    border: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+    width: 175px;
+    height: 25px;
+    outline: 0;
+    padding: 4px;
+}
+.search-Listbox{
+	display: none;
+    position: absolute;
+    background-color: #fff;
+	top: 35px;
+	left: -1px;
+    width: 58px;
+    border: 1px solid #3297d8;
+    border-top: 1px solid #fff;
+    height: 258px;
+    z-index: 99;
+
+}
+.search-Listbox li{
+	margin-top: 0;
+	width: 58px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.search-Listbox a{
+    color: #a8a8a8;
+}
+.search-Listbox li:hover{
+	background-color: #edf3fc;
+}
+.search-Listbox a:hover{
+	text-decoration: none;
+	color: #6994c1;
+}
+.login-Gray{
+	padding-top: 5px;
+}
+.float-R{
+	float: right;
+}
+.float-L{
+	float: left;
+}
+.qzone{
+	display: block;
+	width: 35px;
+	height: 35px;
+    float: left;
+    border: 1px solid #ededed;
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: -155px -1px;
+}
+.qzone:hover{
+	border: 1px solid #3297d8;
+}
+.mail{
+	display: block;
+	width: 35px;
+	height: 35px;
+    float: left;
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: -70px -1px;
+}
+.mail:hover{
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: -70px -42px;
+}
+.login{
+	display: block;
+	width: 35px;
+    height: 35px;
+    float: left;
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: -30px -1px;
+}
+.login:hover{
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: -30px -42px;
+}
+.microblog{
+	display: block;
+	width: 35px;
+    height: 35px;
+    float: left;
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: 10px -1px;
+}
+.microblog:hover{
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: 10px -42px;
+}
+.nav{
+	width: 1000px;
+	height: 65px;
+	background: url("../img/nav.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	line-height: 57px;
+	padding-top: 8px;
+}
+.box{
+	width: 120px;
+	height: 25px;
+	line-height:25px;
+	float: left;
+	color: #fff;
+	margin-left: 26px;
+	font-size: 14px;
+	text-align: left;
+	font-family: STHeiti,'Microsoft YaHei','宋体',arial;
+}
+.boxt{
+	width: 80px;
+	height: 25px;
+	margin-left: 26px;
+	line-height: 25px;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+	font-family: STHeiti,'Microsoft YaHei','宋体',arial;
+}
+.nav-Inner{
+	color: #fff;
+	padding: 1px;
+	margin: 0 4px 0 3px;
+}
+.nav-Inner:hover{
+	color: rgb(13,81,156);
+	background-color: rgb(202,225,238);
+}
+.advert{
+	width: 1000px;
+	height: 85px;
+}
+.advert-Left{
+	width: 700px;
+    height: 75px;
+   	float:left;
+    margin-top: 5px;
+}
+.advert-Right{
+	width: 280px;
+   	height: 75px;
+    float:left;
+    line-height: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.nav-More{
+	width: 35px;
+	padding:0 5px;
+	display: inline-block;
+	background-image: url(../img/nav-More-Down.png);
+	background-repeat: no-repeat;
+	background-position: 35px 11px;
+	position: absolute;
+	bottom: 15px;
+	right: 13px;
+}
+.more-List{
+	position: absolute;
+	right: 13px;
+	top:55px;
+	width: 45px;
+	background-color: #469fe1;
+	margin-left: 5px;
+	z-index: 99;
+}
+.more-List li{
+	margin-top: 0;
+}
+.more-List li a{
+	color: #fff;
+	padding-left: 5px;
+	text-decoration: none;
+}
+.more-List li:hover{
+	background: rgb(205,234,255);
+}
+.more-List a:hover{
+	color: rgb(13,81,156);
+	text-decoration: none;
+}
+.content-Part1{
+	width: 1000px;
+	height: 970px;
+	margin-top: 12px;
+}
+.part1-Left{
+	width: 700px;
+	height: 970px;
+}
+.part1-Right{
+	width: 280px;
+	height: 970px;
+}
+.focus-News{
+	width: 350px;
+	height: 970px;
+}
+.today-Topic{
+	width: 330px;
+	height: 252px;
+}
+.today-Hit{
+	width: 330px;
+	height: 330px;
+}
+.today-Picture{
+	width: 330px;
+	height: 389px;
+}
+.product-Nav{
+	width: 250px;
+	height: 240px;
+	padding-right: 30px;
+	background-image: url(../img/product-Nav.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	border: 1px solid #d2e1f1;
+	position: relative;
+}
+.news-Title,.topic-Title,.hit-Title,.picture-Title{
+	height: 33px;
+	width: 100%;
+	border-top: 1px solid #c8dcf2;
+}
+.news-Title h2,.topic-Title h2,.picture-Title h2,.market-Quotation h2,.horoscope-Title h2{
+	height: 30px;
+    line-height: 30px;
+	padding: 3px 18px 0;
+	text-align: center;
+}
+.hit-Title h2{
+	height: 30px;
+    line-height: 21px;
+	text-align: center;
+}
+.news-Title h2 a,.topic-Title h2 a,.hit-Title h2 a,.picture-Title h2 a,.market-Quotation h2 a,.horoscope-Title h2 a{
+	color: #0873c0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.hit-Title h2 a{
+	display: block;
+    width: 83px;
+    padding-top: 9px;
+    height: 21px;
+    border-top: 2px solid #fff;
+}
+.news-Title span{
+	width: 24px;
+	padding: 8px 3px 2px 2px;
+	margin-top: 1px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.news-Title img{
+	width: 16px;
+    height: 16px;
+    padding: 8px 3px 2px 2px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+li{
+	margin-top: 12px;
+}
+ul li a:hover,.content-Video p>a:hover{
+	color: rgb(205,2,0);
+	text-decoration: underline;
+}
+.content-Special a{
+	color: #3B639F;
+    font-weight: 700;
+}
+.content-Special a:hover,.news-Title h2 a:hover,.topic-Title h2 a:hover,.hit-Title h2 a:hover,.picture-Title h2 a:hover,.hit-Title h2 a:hover,.market-Quotation h2 a:hover,.horoscope-Title h2 a:hover{
+	text-decoration: underline;
+}
+.news-Content img{
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.news-Txt{
+	width: 208px;
+    height: 70px;
+    line-height: 30px;
+    padding: 0 22px 0 0;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+.topic-Title img{
+	width: 83px;
+    height: 16px;
+    padding: 10px 3px 0 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+#special-Border{
+	border-top:  2px solid #0873c0;
+}
+.hit-Content{
+	width: 330px;
+	height: 290px;
+}
+.content-Video{
+	width: 310px;
+	height: 103px;
+	padding: 12px 0 7px 0;
+}
+.video-Left{
+	width: 145px;
+	height: 103px;
+}
+.video-Right{
+	width: 145px;
+	height: 103px;
+}
+.content-Video p{
+	text-align: center;
+	margin-top: 5px;
+}
+.hit-Content li,.film-Content li,.variety-Content li{
+	width: 311px;
+	height: 28px;
+    line-height: 28px;
+    padding-left: 19px;
+    margin: 0;
+    background-image: url("../img/icon-New.png");
+    background-repeat: no-repeat;
+    background-position: 0 -42px;
+}
+.today-Hit img{
+	width: 145px;
+	height: 80px;
+}
+.content-Video p>a{
+	font-size: 12px;
+}
+.nav-Line1{
+	width: 239px;
+    padding-left: 10px;
+    height: 26px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.product-Nav a{
+	color: #294c7f;
+    font-family: arial;
+}
+.product-Nav a:hover,.product-Nav span:hover{
+    text-decoration: underline;
+}
+.product-Nav div{
+	width: 239px;
+    padding-left: 10px;
+}
+.nav-Line1 a,.nav-Line2 a,.nav-Line4 a,.nav-Line5 a{
+	margin-right: 8px;
+}
+.nav-Line2{
+    height: 26px;
+    padding-top: 11px;
+    background: #f5f8fc;
+}
+.nav-Line3{
+	height: 60px;
+    line-height: 28px;
+    padding-top: 4px;
+}
+.nav-Line3 a{
+	margin-right: 10px;
+}
+.nav-Line4{
+	height: 59px;
+    line-height: 28px;
+    padding-top: 3px;
+    background: #f5f8fc;
+}
+.nav-Line5{
+	height: 29px;
+    padding-top: 9px;
+}
+.nav-Special span{
+	color: rgb(205,2,0);
+}
+#nav-Button{
+	position: absolute;
+    top: -1px;
+    right: 279px;
+	width: 14px;
+    height: 238px;
+    padding: 0;
+}
+#button-Picture{
+	width: 14px;
+    height: 37px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(../img/product-Button.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#button-Hide{
+	width: 0;
+	height: 240px;
+	display: none;
+	padding: 0;
+	float: right;
+    text-align: right;
+    background: #fff;
+    z-index: 99;
+    border: 1px solid #d2e1f1;
+    border-right: 0;
+}
+#button-Hide a{
+	margin-right: 3px;
+}
+#button-Hide div{
+	width: 350px;
+	padding-left: 0;
+}
+.part1-Advert{
+	margin-top: 12px;
+	width: 280px;
+	height: 320px;
+}
+.market-Quotation,.horoscope{
+	position: relative;
+	margin-top: 12px;
+	width: 278px;
+    height: 189px;
+	border: 1px solid #d2e1f1;
+}
+.market-Title,.horoscope-Title{
+	width: 278px;
+	height: 35px;
+}
+.market-Search{
+	margin: 10px 14px 0 0;
+}
+.market-Input{
+	border: 1px solid #D4D4D4;
+    border-right: 0;
+    color: #A0A0A0;
+    width: 103px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    padding-left: 4px;
+    float: left;
+}
+.market-Button{
+	background-position: -600px -160px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 21px;
+    width: 35px;
+    z-index: 999;
+    float: left;
+    cursor: pointer;
+    background-image: url(../img/list.png);
+}
+.market-Content{
+	padding: 0 0 0 14px;
+	height: 110px;
+	width: 264px;
+}
+.market-Content ul{
+	height: 34px;
+	margin-bottom: 5px;
+}
+.market-Content ul li{
+	float: left;
+    width: 47px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-right: 1px solid #dde7f2;
+    cursor: pointer;
+    overflow: hidden;
+}
+.market-Content ul li a{
+    color: #3B639F;
+    font-size: 12px;
+}
+.market-Content ul li:hover,.market-Content ul li a:hover{
+	background-color: #458fce;
+	color: #fff;
+	text-decoration: none;
+}
+.market-Picture{
+	width: 145px;
+    height: 70px;
+    overflow: hidden;
+}
+.market-Txt{
+	float: right;
+	width: 119px;
+	height: 69px;
+}
+.market-Picture img{
+	width: 143px;
+    height: 68px;
+    overflow: hidden;
+	border: 1px solid #d2e1f1;
+}
+dl{
+	width: 110px;
+    padding: 1px 0 0 9px;
+}
+dt a{
+	color: #374562;
+	font-size: 12px;
+}
+dt{
+	width: 132px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    overflow: hidden;
+}
+dd{
+    color: rgb(204, 0, 0);
+}
+.point1{
+	font: 700 20px/38px Tahoma;
+}
+.point2{
+	font: 400 12px/14px Tahoma;
+}
+.market-Login{
+	padding:10px 0 0 13px;
+	width: 230px;
+	height: 14px;
+}
+.market-Login a:hover{
+	color: rgb(204, 0, 0);
+	text-decoration: underline;
+}
+.horoscope-Content{
+	width: 240px;
+    height: 50px;
+    padding: 5px 19px;
+}
+.horoscope-Picture a{
+	width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(../img/horoscope-Picture.png);
+}
+.horoscope-Select{
+	width: 180px;
+	height: 44px;
+}
+.horoscope-Today{
+	padding: 10px 0 0 0;
+}
+.horoscope-Star-Grey{
+	width: 80px;
+    height: 13px;
+    margin-left: 5px;
+    background-image: url(../img/horoscope-Star.png);
+}
+.horoscope-Star-Yellow{
+	width: 40px;
+    height: 13px;
+    background-image: url(../img/horoscope-Star.png);
+    background-position: left bottom;
+}
+.horoscope-Txt{
+	width: 240px;
+    height: 85px;
+    padding: 10px 19px;
+    overflow: hidden;
+}
+.horoscope-Txt p{
+	display: inline;
+	line-height: 26px;
+    height: 82px;
+    width: 100%;
+    font-size: 14px;
+    color: #323f5a;
+    overflow: hidden;
+}
+.horoscope-Txt a{
+	color: #3b639f;
+}
+.horoscope-Txt a:hover{
+	text-decoration: underline;
+}
